@@ -1,0 +1,17 @@
+.output {
+  margin: 30px auto;
+  width: 50%;
+  border: 1px solid #eee;
+  box-shadow: 0 10px 10px #ccc;
+  padding: 30px;
+  background-color: #eee;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+h1 {
+  margin: 0;
+}
+
+span {
+  font-weight: bold;
+}
