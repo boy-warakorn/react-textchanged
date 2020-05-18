@@ -16,12 +16,16 @@ class App extends Component {
   render() {
     return (
       <div class="App">
-        <UserOutput userName={this.state.userName}></UserOutput>
-        <UserOutput userName={this.state.userName}></UserOutput>
+        <div className="header">
+          <p className="header-text">Comments</p>
+          <hr />
+        </div>
         <UserInput
           changed={this.changeNameHandler}
           userName={this.state.userName}
         ></UserInput>
+        <UserOutput userName={this.state.userName}></UserOutput>
+        <UserOutput userName={this.state.userName}></UserOutput>
       </div>
     );
   }

@@ -1,4 +1,20 @@
 .App {
   text-align: center;
-  margin-top: 20px;
+}
+
+.header {
+  margin: 0;
+  background-color: #808080;
+  padding: 1.5em;
+  color: white;
+  font-family: cursive;
+  font-size: 3em;
+  text-shadow: 3px 2px black;
+}
+.header-text {
+  margin: 0;
+}
+.header hr {
+  margin: 0 auto;
+  width: 15%;
 }
