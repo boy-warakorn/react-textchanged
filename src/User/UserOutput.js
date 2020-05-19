@@ -1,9 +1,9 @@
 import React from "react";
-import "./UserOutput.css";
+import classes from "./UserOutput.module.css";
 
 const UserOutput = (props) => {
   return (
-    <div class="output">
+    <div class={classes.output}>
       <h1>
         Just a simple paragraph <span>💖</span>
       </h1>
